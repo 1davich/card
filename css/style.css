@@ -1,0 +1,142 @@
+*{
+    margin:0px;
+    padding:0px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+main{
+    min-height: 100vh;
+    margin-top:40px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.caja-cards{    
+    margin:auto;
+}
+
+/**  SECCION CARTA   **/
+.card{
+    /*border:1px solid rgba(169,153,153,0.5); */
+    border:2px solid green;    
+    width: 250px;
+    border-radius: 25px;
+    margin:auto;
+    -webkit-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.2);
+            box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.2);
+    position: relative;    
+}
+
+.card .title{
+    background: green;
+    color:white;
+    border-radius: 50px;
+    height: 40px;
+    width:120px;
+    position: absolute;
+    top:-20px;
+    left: 65px;    
+}
+.card .title >h1{
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+
+/**  SECCION IMAGEN   **/
+.imagen{
+    background: rgba(102, 60, 104, 0.755);
+    
+    background-image: -o-linear-gradient(45deg,#8b8c3b,transparent);
+    
+    background-image: linear-gradient(45deg,#8b8c3b,transparent);    
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    height: 270px;
+    margin:-1px;    
+}
+#cbarbaro{
+    position: absolute;
+    left:-45px;
+    top:20px;    
+}
+#cbarbaro:hover{
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+/**  SECCION LEYENDA   **/
+
+.leyenda{
+    margin-top:20px;
+    margin-bottom: 20px;    
+}
+.leyenda h2{
+    color:green;
+    text-align: center;
+    font-weight: 800;
+}
+.leyenda p{
+    text-align: justify;
+    padding:10px 15px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+/**  SECCION HABILIDADES   **/
+.atr{
+    height: 60px;
+    background: green;
+    border:2px solid green;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    margin:-1px;     
+}
+.skill{
+    height: 60px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;    
+    -webkit-box-pack: center;    
+        -ms-flex-pack: center;    
+            justify-content: center;
+    background: green;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    margin:-1px;
+    border:1px solid green;
+    width:247px; 
+}
+.skill .stats:nth-child(1){
+    border-right: 1px solid white;    
+}
+.skill .stats:nth-child(2){
+    border-right: 1px solid white;    
+}
+.stats{
+    width:33%;
+    text-align: center;
+    color:white;
+}
+.stats .val{
+    font-size: 30px;
+    line-height: 40px;    
+    font-weight: 500;
+}
+
+.stats .detail{
+    line-height: 10px;
+}
+
+/** Footer **/
+footer{
+    height: 40px;
+    background: gray;
+}
+footer p{
+    line-height: 40px;
+    font-size: 16px;
+    color:white;
+    font-style: italic;
+    text-align: center;
+}
